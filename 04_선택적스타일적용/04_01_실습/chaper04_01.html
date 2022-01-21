@@ -9,6 +9,7 @@
         <style type="text/css" media="all">
             a {
                 display: block;
+                font: bold;
                 color: black;
             }
             a:link {
@@ -23,6 +24,15 @@
             a:active {
             color: green;
             }
+            a:focus {
+            color: purple;
+            }
+            input:focus {
+                color: pink;
+            }
+            input:active {
+                color: orange;
+            }
         </style>
     </head>
     <body>
@@ -30,6 +40,10 @@
        <a href="https://www.daum.net/"> link red </a> 
        <a href="https://www.daum.net/"> visited blue </a> 
        <a href="https://www.daum.net/"> hover yellow </a> 
-       <a href="https://www.daum.net/"> active green </a> 
+       <a href="https://www.daum.net/"> active green </a>
+       
+       <form>
+           <input type="text" value="First name">
+       </form>
     </body>
 </html>
