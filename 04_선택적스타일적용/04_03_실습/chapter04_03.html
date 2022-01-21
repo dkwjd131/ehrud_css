@@ -1,0 +1,33 @@
+<!--HTML-->
+<!-- li:first-of-type{color: orange;} -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+        <title>
+            Alice's Adventures in Wonderland
+        </title>
+        <style type="text/css" media="all">
+           article p {
+               color: black;
+           }
+           article p:first-of-type {
+               color: red;
+           }
+           article p:first-of-type::first-line {
+               color: blue;
+           }
+           article p:first-of-type::first-letter {
+               color: yellow;
+           }
+        </style>
+    </head>
+    <body>
+       <article>
+           <h1>Alice</h1>
+           <p>aaaaaaaaaaaa <br> bbbbbbbbbb</p>
+           <p>aaaaaaaaaaaa <br> bbbbbbbbbb</p>
+           <p>aaaaaaaaaaaa <br> bbbbbbbbbb</p>
+       </article>
+    </body>
+</html>
