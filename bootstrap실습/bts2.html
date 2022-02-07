@@ -6,18 +6,33 @@
         </head>
         <body>
             <br><br><br><br>
-            <table border="4" align="center">
-                <tr border="4">
-                    <td width="500px" >tr1 td1</td>
-                    <td width="200px">tr1 td2</td>
-                    <td width="200px">tr1 td3</td>
-                </tr>
-                <tr >
-                    <td>tr1 td1</td>
-                    <td>tr2 td2</td>
-                    <td>tr3 td3</td>
-                </tr>
-            </table>
+            <p>
+                <table bordercolor="black" border="1" align="center">
+                    <tr height="50px" bgcolor="lightblue" align="center"> 
+                        <td colspan="3">Title</td>
+                    </tr>
+                    <tr>
+                        <td align="center" width="200px">tr1 td1</td>
+                        <td align="center" width="250px">tr1 td2</td>
+                        <td align="right" width="200px">tr1 td3</td>
+                    </tr>
+                    <tr>
+                        <td align="center">tr2 td1</td>
+                        <td align="center">tr2 td2</td>
+                        <td align="right">tr2 td3</td>
+                    </tr>
+                    <tr >
+                        <td rowspan="2" align="center" bgcolor="orange">tr3 td1</td>
+                        <td align="center">tr3 td2</td>
+                        <td align="right">tr3 td3</td>
+                    </tr>
+                    <tr >
+                        <td align="center">tr4 td2</td>
+                        <td align="right">tr4 td3</td>
+                    </tr>
+                </table>
+            </p>
+            
 
             <!-- 부트스트랩에서 사용하는 JQuery를 인터넷에서 로드. 해당 쿼리를 먼저 로드해야 스크립트 해석이 가능하다. -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
